@@ -1,0 +1,278 @@
+@media (max-width: 1025px) {
+    .sec_cta .flex .image {
+        padding-bottom: 91%;
+    }
+
+    .sec_cta .flex .col1 .shape {
+        right: -36px;
+        top: 0;
+        width: 54.5%;
+    }
+
+    .contact-sec .contain .flex .col {
+        padding: 10px;
+    }
+
+    .contact-sec .contain .col .inner {
+        padding: 18px;
+    }
+
+    .sec_portal .contain .col1 {
+        align-self: center;
+    }
+
+    .contact-form .contain .info {
+        display: block;
+    }
+
+    .contact-form .contain .info li {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    body .two_cols .col {
+        width: 100%;
+    }
+
+    body .banner .shape {
+        height: unset;
+        width: 78%;
+        z-index: -1;
+    }
+
+    body .banner .col1 {
+        padding-bottom: 30px;
+    }
+
+    .sec_about .contain .col2 {
+        padding-left: 0px;
+    }
+
+    .sec_cta .flex .image {
+        padding-bottom: 131%;
+    }
+
+    body .sec_center_content {
+        width: 100%;
+    }
+
+    .sec_portal .contain .col1 {
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+
+    .sec_portal .contain .sec_heading {
+        width: 100%;
+    }
+
+    .sec_patient .flex {
+        flex-direction: column-reverse;
+    }
+
+    footer .contain .flexRow {
+        flex-flow: unset;
+        flex-wrap: wrap;
+    }
+
+    footer .contain .flexRow>.col {
+        flex: unset;
+        width: calc(100%/2);
+    }
+
+    footer .contain .flexRow>.col:nth-last-child(1), footer .contain .flexRow>.col:nth-child(3), footer .contain .flexRow>.col:first-child {
+        flex: unset;
+    }
+
+    .contact-sec .contain .shape_bg {
+        width: 41%;
+        left: 30%;
+    }
+
+    .contact-form .flex {
+        flex-direction: column-reverse;
+    }
+
+    .contact-form .flex .col1 {
+        padding-top: 20px;
+    }
+
+    .sec_missing .flex {
+        flex-direction: column-reverse;
+    }
+
+    .sec_cta .flex .col1 .shape {
+        right: -88px;
+        top: 0;
+        width: 78.5%;
+    }
+
+    .sec_report .contain .col2 {
+        padding-right: 0;
+    }
+
+    .sec_problem .contain .col2 {
+        padding-right: 0;
+    }
+
+    .sec_portal .flex {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 769px) {
+
+    header .toggle {
+        display: flex;
+    }
+
+    [nav].active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    [nav] {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        display: flex;
+        align-content: space-between;
+        flex-flow: column;
+        width: auto;
+        background: #fff;
+        margin: 0;
+        padding: 2rem 5rem;
+        border-top: 0.2rem solid #eee;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 0;
+        height: 100vh;
+    }
+
+    header [nav] ul {
+        width: 100%;
+        flex-flow: wrap;
+        margin: auto 0;
+    }
+
+    header [nav] ul li {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header [nav] ul li a {
+        color: #284354 !important;
+    }
+
+    .sec_cta .flex .col2 .shape {
+        width: 54.4%;
+    }
+
+    .sec_cta .flex .image {
+        padding-bottom: 137%;
+    }
+
+    .sec_cta .flex .col1 .shape {
+        right: -88px;
+        top: 0;
+        width: 81.5%;
+    }
+}
+
+@media (max-width: 512px) {
+    body .banner .shape {
+        height: unset;
+        width: 100%;
+        z-index: -1;
+        right: 0;
+    }
+
+
+    header.fix .logo img {
+        filter: unset;
+
+    }
+
+    body .banner h1 {
+        font-size: 34px;
+    }
+
+    .banner .img_bottom {
+        padding-bottom: 100%;
+    }
+
+    .banner .image .bg {
+        bottom: -40px;
+        width: 91%;
+        right: 40px;
+    }
+
+    .sec_cta .flex .col2 {
+        width: 100%;
+        background: none;
+        padding: 30px 15px;
+    }
+
+    .sec_cta .flex .col1 {
+        width: 100%;
+        padding: 30px 15px;
+        padding-top: 0;
+    }
+
+    .sec_cta .flex .col .image {
+        padding-bottom: 73%;
+    }
+
+    .sec_cta .flex .col .image img {
+        border-radius: 13px;
+    }
+
+    .sec_record .contain .image {
+        margin-right: -22px;
+        margin-top: 29px;
+        padding-bottom: 96%;
+    }
+
+    .sec_patient .contain .image {
+        padding-bottom: 100%;
+    }
+
+    .sec_cta .flex .col2 .shape {
+        display: none;
+    }
+
+    .sec_cta .flex {
+        flex-direction: column-reverse;
+    }
+
+    .sec_cta {
+        background: linear-gradient(180deg, #7312d3 56%, #bc8cef 100%);
+    }
+
+    body h2 {
+
+        font-size: 28px;
+
+    }
+
+    .contact-sec .contain .flex .col {
+        width: 100%;
+        flex: unset;
+    }
+
+    .contact-sec .contain .shape_bg {
+        width: 27%;
+        left: 37%;
+    }
+
+    .sec_cta .flex .col1 .shape {
+        display: none;
+    }
+
+    .sec_portal .contain .col1 .image {
+        padding-bottom: 99%;
+    }
+}
